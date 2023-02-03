@@ -1,0 +1,32 @@
+.box{
+    border: 1px solid black;
+    height: 50px;
+    background-color: #022E39;
+    color: whitesmoke;
+}
+.inp::placeholder{
+    color: black;
+    
+}
+.inp{
+    outline: none;
+}
+
+@media screen and (min-width: 768px) {
+.hamburger-menu{
+    display: none;
+}
+
+}
+@media screen and (max-width: 883px) {
+.special{
+    width: 100vw;
+}
+}
+@media screen and (min-width: 883px) {
+.special{
+    width: 90vw;
+}
+}
+
+

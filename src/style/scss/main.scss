@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: samim;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: samim;
+    src: url(../../fonts/SamimRegular.ttf);
+}
+@import '~antd/dist/antd.css';
+@import "_header";
+
+.clip{
+    clip-path: polygon(22% 1%, 59% 0, 100% 0, 100% 100%, 43% 100%, 22% 100%, 0 50%);
+    width: 150px;
+    height: 40px;
+
+}
+.gradient{
+    background: linear-gradient(93deg, rgba(24,219,255,1) 0%, rgba(148,27,128,1) 85%);
+
+}
